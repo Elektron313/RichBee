@@ -1,0 +1,20 @@
+.square {
+  width: 50px;
+  height: 44px;
+  position: absolute;
+
+  .row {
+    display: flex;
+    margin-bottom: 6px;
+    div {
+      width: 1.94px;
+      height: 1.94px;
+      background: #DE6944;
+      border-radius: 24px;
+    }
+    div:not(:last-child) {
+      margin-right: 7px;
+    }
+  }
+
+}

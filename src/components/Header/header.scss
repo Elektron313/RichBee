@@ -1,0 +1,28 @@
+.header {
+  padding: 24px 101px;
+  display: flex;
+  align-items: center;
+
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    &-title span{
+      font-size: 24.1183px;
+      font-weight: bold;
+      line-height: 29px;
+      color: #222;
+    }
+  }
+
+  &__register {
+    margin-left: 27px;
+    & span {
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px;
+      color: #1943EF;
+    }
+  }
+}

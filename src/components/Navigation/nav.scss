@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+
+  &__item:not(:last-child){
+    margin-right: 24px;
+  }
+  &__item span {
+    font-size: 11px;
+    line-height: 13px;
+    color: #73738D;
+    font-weight: 600;
+  }
+}

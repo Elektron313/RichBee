@@ -1,0 +1,131 @@
+.App {
+  width: 998px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #f0f4f5;
+  position: relative;
+  z-index: 0;
+
+  .ring1 {
+    position: absolute;
+    left: 339px;
+    top: 0;
+  }
+  .ring2 {
+    position: absolute;
+    left: 0;
+    top: 491px;
+  }
+  .ring3 {
+    position: absolute;
+    right: 0;
+    bottom: 104px;
+  }
+  .ring4 {
+    position: absolute;
+    top: -11px;
+    left: -34px;
+    z-index: -1;
+  }
+  .comments {
+    position: relative;
+    h2 {
+      font-weight: bold;
+      font-size: 24.95px;
+      line-height: 30px;
+      text-align: center;
+      color: #222222;
+    }
+    .author2 {
+       position: absolute;
+       top: 94px;
+       left: 137px;
+     }
+    .author3 {
+      position: absolute;
+      top: 30px;
+      left: 60px;
+    }
+    .author4 {
+      position: absolute;
+      top: 227px;
+      left: -8px;
+    }
+    .author5 {
+      position: absolute;
+      top: 5px;
+      right: 0;
+    }
+    .author6 {
+       position: absolute;
+       top: 68px;
+       right: 180px;
+     }
+    .author7 {
+      position: absolute;
+      top: 289px;
+      right: 51px;
+    }
+    &__footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-select{
+        width: 5.54px;
+        height: 5.54px;
+        background: gray;
+        border-radius: 47.8208px;
+        margin: 0 2px;
+
+        &.active {
+          width: 16.63px;
+          background: #26C296;
+        }
+        &.last {
+          width: 2.77px;
+          height: 2.77px;
+        }
+      }
+    }
+  }
+
+  .offer {
+    position: relative;
+    width: 792.86px;
+    height: 123.36px;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 8.31667px;
+    margin: 121px auto 68px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+
+    &__text {
+
+      & h1 {
+        font-weight: bold;
+        font-size: 24.95px;
+        line-height: 30px;
+        color: #222222;
+      }
+      & p {
+        font-weight: 500;
+        font-size: 11.0889px;
+        line-height: 150%;
+        color: #73738D;
+        margin-top: 6px;
+      }
+    }
+    & button {
+      width: 156px;
+      height: 41px;
+      background: #26C296;
+      border-radius: 34px;
+      color: #FFFFFF;
+    }
+
+  }
+}
+

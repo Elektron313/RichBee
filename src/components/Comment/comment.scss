@@ -1,0 +1,50 @@
+.comments__item {
+  position: relative;
+  width: 502px;
+  height: 301px;
+  margin: 94px 248px 33px 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+  border-radius: 8.31667px;
+  .square{
+    right: -9px;
+    bottom: -23px;
+    z-index: -1;
+    .row div {
+      background: #64CCE3;;
+    }
+  }
+  &-photo {
+    position: absolute;
+    top: -62px;
+    left: auto;
+  }
+  &-author {
+    font-weight: 600;
+    font-size: 14.5542px;
+    line-height: 17px;
+    color: #222222;
+    margin: 59px 0 17px 0;
+  }
+  .vectors {
+    img:first-child {
+      margin-right: 3.5px;
+    }
+  }
+  &-text {
+    margin: 8.32px 0 16.63px 0;
+    width: 452px;
+    font-weight: 500;
+    font-size: 14.5542px;
+    line-height: 150%;
+    text-align: center;
+    color: #73738D;
+  }
+  &-signature {
+    margin: 16px 0 27px 0;
+  }
+}

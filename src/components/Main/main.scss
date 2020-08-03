@@ -1,0 +1,96 @@
+.main {
+  margin: 64px 114px 135px 101px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  .square {
+    position: absolute;
+    top: 115px;
+    left: -14px;
+    z-index: -1;
+  }
+  &__info{
+
+    &-description {
+      width: 429px;
+
+      .ant-input-search {
+         input {
+           border: white;
+           border-bottom-left-radius: 34px !important;
+           border-top-left-radius: 34px !important;
+           background: #FFFFFF;
+           &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+             font-size: 11px;
+             line-height: 150%;
+             color: rgba(115, 115, 141, 0.6);
+           }
+           &::-moz-placeholder { /* Firefox 19+ */
+             font-size: 11px;
+             line-height: 150%;
+             color: rgba(115, 115, 141, 0.6);
+           }
+           &:-ms-input-placeholder { /* IE 10+ */
+             font-size: 11px;
+             line-height: 150%;
+             color: rgba(115, 115, 141, 0.6);
+           }
+           &:-moz-placeholder { /* Firefox 18- */
+             font-size: 11px;
+             line-height: 150%;
+             color: rgba(115, 115, 141, 0.6);
+           }
+           &:focus {
+             box-shadow: 0 0 0 0;
+           }
+         }
+         .ant-input-group-addon > span {
+            background-color: #fff;
+         }
+        button {
+          width: 156px;
+          height: 37.53px;
+          font-size: 11px;
+          background: #1943EF;
+          border-radius: 34px !important;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+      & h2 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 49px;
+        color: #222222;
+      }
+
+      & p {
+        margin-top: 17px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 14.5542px;
+        line-height: 22px;
+        color: #73738D;
+      }
+    }
+    &-options {
+      display: flex;
+      margin-top: 20px;
+
+      & div {
+        margin-right: 18px;
+
+       & span {
+          margin-left: 4px;
+          font-weight: 500;
+          font-size: 11.0889px;
+          line-height: 150%;
+          color: #73738D;
+       }
+      }
+    }
+  }
+}
