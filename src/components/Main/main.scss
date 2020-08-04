@@ -93,4 +93,20 @@
       }
     }
   }
+  &__img {
+    position: relative;
+
+    .ring5 {
+      position: absolute;
+      top: 18px;
+      left: 17px;
+      z-index: -1;
+    }
+    .ring6 {
+      position: absolute;
+      bottom: 33px;
+      right: 10px;
+      z-index: -1;
+    }
+  }
 }
